@@ -1,0 +1,61 @@
+body {
+  width: 1366px;
+  height: 768px;
+  background-color: #ffffff;
+  top: 0px;
+  left: 0px;
+  position: absolute; }
+
+.content .text .kolom {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-top: 72px;
+  margin-left: 120px; }
+  .content .text .kolom .kolom-left h2 {
+    width: 470px;
+    height: 135px;
+    font-size: 48px; }
+  .content .text .kolom .kolom-left p {
+    font-size: 16px; }
+  .content .text .kolom .kolom-left form input {
+    border: 1px solid #a1a3a3;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px #fff;
+            box-shadow: 0 1px #fff;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 10px 0 0 2px;
+    -webkit-transition: -webkit-box-shadow 0.3s;
+    transition: -webkit-box-shadow 0.3s;
+    transition: box-shadow 0.3s;
+    transition: box-shadow 0.3s, -webkit-box-shadow 0.3s;
+    color: #cccccc;
+    width: 478px;
+    height: 72px; }
+  .content .text .kolom .kolom-left form textarea {
+    border: 1px solid #a1a3a3;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px #fff;
+            box-shadow: 0 1px #fff;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 10px 0 0 2px;
+    -webkit-transition: -webkit-box-shadow 0.3s;
+    transition: -webkit-box-shadow 0.3s;
+    transition: box-shadow 0.3s;
+    transition: box-shadow 0.3s, -webkit-box-shadow 0.3s;
+    color: #cccccc;
+    width: 478px;
+    height: 144px; }
+  .content .text .kolom .kolom-left form .button {
+    width: 478px;
+    height: 72px;
+    background-color: #f44336;
+    color: #ffffff; }
+  .content .text .kolom .kolom-right {
+    padding: 50px; }
+    .content .text .kolom .kolom-right span {
+      font-size: 24px; }
+    .content .text .kolom .kolom-right img {
+      width: 563px;
+      height: 432px; }

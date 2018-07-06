@@ -1,0 +1,49 @@
+header{
+  background: #F6F6F6;
+  margin:0;
+  padding:0 0 20px;
+  position:relative;
+  z-index:2000;
+}
+
+header .top {
+  padding:10px 0 10px;
+  margin:0 0 30px;
+  background: #FFFFFF;
+  opacity: 100%;
+  padding: 12px 32px;
+}
+.btn-kontak {
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 26px;
+  border-radius: 2px;
+  transition: 0.5s;
+  margin: 10px;
+  color: #fff;
+  background: #84c75b;
+}
+
+
+header .logo {
+  float:left;
+}
+
+header .logo img {
+  margin-bottom:10px;
+}
+header .logo h1 {
+  color:#fdfdfd;
+  letter-spacing:-1px;
+  font-size:2.2em;
+  font-weight:900;
+  margin:0;
+}
+header .logo h1 a {
+  color:#fdfdfd;
+}
+header .logo h1 a:hover {
+  text-decoration:none;
+}

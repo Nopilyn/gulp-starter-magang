@@ -1,0 +1,78 @@
+$color-primary:#ffffff;
+
+@mixin w-h($width,$height){
+	width:$width;
+	height:$height;
+}
+
+@mixin top-left($top,$lef){
+	top:$top;
+	left:$lef;
+}
+
+@mixin size($size){
+	font-size:$size;
+}
+
+body{
+	@include w-h(1366px, 768px);
+	background-color:$color-primary;
+	@include top-left(0px,0px);
+	position:absolute;
+}
+
+.content{
+	.text{
+		.kolom{
+			display:grid;
+			grid-template-columns: 50% 50% ;
+			margin-top:72px;
+			margin-left:120px;
+			.kolom-left{
+				h2{
+					@include w-h(470px, 135px);
+					@include size(48px);
+				}
+				p{
+					@include size(16px);
+				}
+				form{
+					input{
+						border: 1px solid #a1a3a3;
+						border-radius: 5px;
+						box-shadow: 0 1px #fff;
+						box-sizing: border-box;
+						margin: 10px 0 0 2px;
+						transition: box-shadow 0.3s;
+						color: rgb(204,204,204);
+						@include w-h(478px, 72px);
+					}
+					textarea{
+						border: 1px solid #a1a3a3;
+						border-radius: 5px;
+						box-shadow: 0 1px #fff;
+						box-sizing: border-box;
+						margin: 10px 0 0 2px;
+						transition: box-shadow 0.3s;
+						color: rgb(204,204,204);
+						@include w-h(478px, 144px);
+					}
+					.button{
+						@include w-h(478px, 72px);
+						background-color:#f44336;
+						color:$color-primary;
+					}
+				}
+			}
+			& .kolom-right{
+				padding:50px;
+				span{
+					@include size(24px);
+				}
+				img{
+					@include w-h(563px, 432px);
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,13 @@
+body {
+  width: 1366px;
+  height: 768px;
+  background-color: #ffffff;
+  top: 0px;
+  left: 0px;
+  position: absolute; }
+
+#wrapper {
+  background: #fff; }
+  #wrapper .container header .row .logo img {
+    width: 200px;
+    height: 100px; }

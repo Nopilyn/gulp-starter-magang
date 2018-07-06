@@ -1,0 +1,40 @@
+$color-primary:#ffffff;
+
+@mixin w-h($width,$height){
+	width:$width;
+	height:$height;
+}
+
+@mixin top-left($top,$lef){
+	top:$top;
+	left:$lef;
+}
+
+@mixin size($size){
+	font-size:$size;
+}
+
+body{
+	@include w-h(1366px, 768px);
+	background-color:$color-primary;
+	@include top-left(0px,0px);
+	position:absolute;
+}
+
+#wrapper{
+	background: #fff;
+	.container{
+		header{
+			.row{
+				.logo{
+					img{
+						@include w-h(200px, 100px);
+					}
+				}
+				.span8{
+					.button
+				}
+			}
+		}
+	}
+}

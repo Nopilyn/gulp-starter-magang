@@ -1,9 +1,8 @@
 // List Projects
 	const projects = [
 		{
-			name: 'webdesa',
+			name: 'tual',
 			script: [
-				'node_modules/bootstrap/dist/js/bootstrap.min.js'
 			]
 		},
 	]
